@@ -1,0 +1,13 @@
+0        ! iflow : 0-serial, 1-parallel
+1        ! ncore
+1000    ! ntraj
+        
+1        ! dtc     (a.u.)
+40000     ! ttime   (a.u.)
+        
+1       ! ifriction
+1       ! istate    : 1-ground, 2-excited
+
+2       ! iprint    : 0-none, 1-traj,steps, 2-traj
+1       ! istr_sci  : calculate and write sum(|ci|^2)
+1       ! istr_eng  : calculate and write energy

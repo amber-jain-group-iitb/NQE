@@ -1,0 +1,16 @@
+1       # ! iflow : 0-serial, 1-parallel
+400     #   ! ncore
+2  	# ! ntraj
+        
+0.5    #   ! dtc     (a.u.)
+420000001  #  ! ttime   (a.u.) ! ...001
+        
+1      # ! ifriction
+1      # ! istate    : 1-ground, 2-excited
+
+2      # ! iprint    : 0-none, 1-traj,steps, 2-traj
+200000 # ! nwrt_traj : write trajectory data after every n steps {n*dtc timestep}
+1      # ! 102 istr_sci  : calculate and write sum(|ci|^2)
+1      # ! 103 istr_snk  : calculate and write sum(nk) 
+1      # ! 104 istr_eng  : calculate and write energy
+0      # ! 105 wrt_qs    : write position of q1 and q2
